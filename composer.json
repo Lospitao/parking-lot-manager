@@ -1,0 +1,17 @@
+{
+    "name": "lauralospitao/parking-lot-manager",
+    "description": "Parking app library contaning business logic",
+    "type": "library",
+    "authors": [
+        {
+            "name": "Laura Lospitao",
+            "email": "lauralospitao@gmail.com"
+        }
+    ],
+    "require": {},
+    "autoload": {
+        "psr-4": {
+            "parkingLotManagerUserServices\\": "src/services/user"
+        }
+    }
+}
